@@ -10,4 +10,4 @@ SELECT
     ZipCode,
     Updated_at,
     CONCAT(FirstName, ' ', LastName) AS CustomerName
-FROM SLEEKMART_OMS.L1_LANDING.CUSTOMERS
+FROM {{source('landing','customers')}}

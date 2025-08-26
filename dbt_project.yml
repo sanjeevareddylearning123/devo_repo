@@ -53,3 +53,4 @@ models:
       orders_fact:
         schema: L2_PROCESSING
         materialized: table
+     
